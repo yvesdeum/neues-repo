@@ -13,6 +13,7 @@ from plotly import subplots
 df = pd.read_csv("https://raw.githubusercontent.com/yvesdeum/neues-repo/main/gapminderDataFiveYear.csv")
 
 app = Dash(__name__)
+server = app.server
 
 app.layout= html.Div([
     html.H1(children='Dynamic Graphic', style=dict(textAlign = 'center')),
