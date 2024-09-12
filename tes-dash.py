@@ -1,14 +1,7 @@
 # Import packages
 from dash import Dash, html, dash_table, dcc, Input, Output, callback
-import numpy as np
 import pandas as pd
-from pandasgui import show
 import plotly.graph_objects as go
-import plotly.express as px
-import plotly.offline as pyo
-import plotly.figure_factory as ff
-from plotly import tools
-from plotly import subplots
 
 df = pd.read_csv("https://raw.githubusercontent.com/yvesdeum/neues-repo/main/gapminderDataFiveYear.csv")
 
