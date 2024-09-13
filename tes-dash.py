@@ -12,6 +12,7 @@ columns = columns.dropna()
 columns = [int(x) for x in columns]
 
 app = Dash(__name__)
+server = app.server
 
 markdown_text = '''
 >
